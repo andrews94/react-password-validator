@@ -18,7 +18,7 @@ class Validator extends Component {
   validUser(check) {
     this.setState({user: check.target.value})
   }
-  validPassword() {
+  validPassword(check) {
     this.setState({password: check.target.value})
   }
   validValidator(check) {
@@ -44,4 +44,5 @@ render() {
       );
     }
   }
+
 export default Validator;
